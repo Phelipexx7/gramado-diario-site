@@ -1,1 +1,48 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0d1117;
+color:white;
+}
 
+.nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#111827;
+}
+
+.nav a{
+margin-left:15px;
+color:#c8a96e;
+text-decoration:none;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+border-radius:8px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:24px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+}
